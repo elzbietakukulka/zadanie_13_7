@@ -20,11 +20,11 @@ fs.stat('./cat.jpeg', function(err, stats) {
     });
 });*/
 
-fs.readFile('./tekst.txt', 'utf-8', function(err, data) {
+fs.readFile('../zadanie_13_7/teksty/tekst.txt', 'utf-8', function(err, data) {
     var text = data;
-    fs.writeFile('./tekstDwa.txt', text, function(err) {
+    fs.writeFile('../zadanie_13_7/teksty/tekstDwa.txt', text, function(err) {
         if (err) throw err;
-        fs.readFile('./tekstDwa.txt', 'utf-8', function(err, data) {
+        fs.readFile('../zadanie_13_7/teksty/tekstDwa.txt', 'utf-8', function(err, data) {
             console.log(data);
         });
     });

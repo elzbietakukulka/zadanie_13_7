@@ -1,1 +1,0 @@
-﻿Tekst, który ma się zapisać w pliku 'tekstDwa'.
