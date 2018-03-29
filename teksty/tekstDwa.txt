@@ -1,1 +1,1 @@
-﻿Tekst, który ma się zapisać w pliku 'tekstDwa'. Próba 2.
+tekst.txt,tekstDwa.txt

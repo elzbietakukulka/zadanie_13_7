@@ -20,8 +20,8 @@ fs.stat('./cat.jpeg', function(err, stats) {
     });
 });*/
 
-fs.readFile('../zadanie_13_7/teksty/tekst.txt', 'utf-8', function(err, data) {
-    var text = data;
+fs.readdir('../zadanie_13_7/teksty', 'utf-8', function(err, files) {
+    var text = files;
     fs.writeFile('../zadanie_13_7/teksty/tekstDwa.txt', text, function(err) {
         if (err) throw err;
         fs.readFile('../zadanie_13_7/teksty/tekstDwa.txt', 'utf-8', function(err, data) {
